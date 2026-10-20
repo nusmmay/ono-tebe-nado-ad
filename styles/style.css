@@ -5,7 +5,7 @@
   align-items: center;
   padding: 92px 50px 97px;
 }
-/* ================= HEADER для гитхаба ================= */
+/* ================= HEADER для гитхаба в другую ветку ================= */
 .header__links-list {
   display: flex;
   gap: 32px;
