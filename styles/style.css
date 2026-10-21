@@ -1,31 +1,25 @@
-/* ================= HEADER ================= */
 .header {
   display: grid;
   grid-template-columns: 1fr min-content 1fr;
   align-items: center;
   padding: 92px 50px 97px;
 }
-/* ================= HEADER для гитхаба в другую ветку ================= */
+
 .header__links-list {
   display: flex;
-  gap: 32px;
+  gap: 15px;
   list-style: circle;
-  padding-left: 0;
 }
 
 .header__links-list-item {
+  margin-left: 18px;
   font-size: 18px;
   line-height: 1.33;
-  color:#000;
 }
 
 .header__links-list-item_no-bullit {
+  margin-left: 0;
   list-style: none;
-}
-
-.header__link {
-  text-decoration: underline;
-  text-underline-offset: 4px;
 }
 
 .header__link_active {
@@ -52,18 +46,17 @@
 
 .header__address {
   max-width: 210px;
+  margin-right: 30px;
   justify-self: end;
-  text-align: left;
 }
 
-/* ================= COVER ================= */
 .cover {
   position: relative;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
   min-height: 757px;
-  padding: 165px 50px 50px;
+  padding: 155px 50px 50px;
   background: url(../images/cover.jpg) center / cover no-repeat;
   color: #fff;
 }
@@ -78,8 +71,7 @@
   position: relative;
   z-index: 1;
   font-size: 100px;
-  font-weight: bold;
-  line-height: 1.15;
+  line-height: 1.35;
   letter-spacing: 0.3em;
   text-transform: uppercase;
 }
@@ -115,7 +107,7 @@
 
 .cover__description-text {
   font-size: 22px;
-  line-height: 1.27;
+  line-height: 1.2;
   word-spacing: 18px;
   text-transform: uppercase;
 }
@@ -127,12 +119,11 @@
   background: transparent;
   color: inherit;
   font-size: 22px;
-  line-height: 1.27;
+  line-height: 1.2;
   text-transform: uppercase;
   cursor: pointer;
 }
 
-/* ================= LOTS ================= */
 .lots {
   padding: 180px 24px 0;
 }
@@ -140,7 +131,6 @@
 .lots__heading {
   margin-left: 40px;
   font-size: 40px;
-  font-weight: bold;
   line-height: 1.2;
   text-transform: uppercase;
 }
@@ -149,7 +139,7 @@
   display: flex;
   flex-wrap: wrap;
   gap: 25px;
-  margin-top: 27px;
+  margin-top: 30px;
   list-style: none;
 }
 
@@ -171,7 +161,7 @@
   flex-direction: column;
   justify-content: space-between;
   height: 100%;
-  padding: 48px 40px;
+  padding: 46px 40px 52px;
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -193,10 +183,8 @@
   position: relative;
   z-index: 1;
   font-size: 22px;
-  font-weight: bold;
   line-height: 1.18;
   text-decoration: underline;
-  text-underline-offset: 4px;
   text-transform: uppercase;
 }
 
@@ -209,14 +197,11 @@
 
 .lots__look-more-link {
   display: inline-block;
-  margin: 30px 0 0 40px;
+  margin: 27px 0 0 40px;
   font-size: 20px;
   line-height: 1.2;
-  text-decoration: underline;
-  text-underline-offset: 4px;
 }
 
-/* ================= ABOUT ================= */
 .about {
   display: grid;
   grid-template-columns: 334px 1fr;
@@ -230,7 +215,7 @@
   align-items: center;
   width: 240px;
   height: 240px;
-  margin: 35px auto 0;
+  margin: 0 auto;
   border-radius: 50%;
   background-color: #000;
 }
@@ -242,7 +227,6 @@
 .about__title {
   margin-top: 101px;
   font-size: 40px;
-  font-weight: bold;
   line-height: 1.2;
   text-transform: uppercase;
 }
@@ -256,7 +240,6 @@
   line-height: 1.2;
 }
 
-/* ================= FOOTER ================= */
 .footer {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
@@ -272,11 +255,6 @@
 .footer__menu-list-item {
   font-size: 18px;
   line-height: 1.2;
-}
-
-.footer__menu-link {
-  text-decoration: underline;
-  text-underline-offset: 4px;
 }
 
 .footer__menu-link_active {
